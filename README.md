@@ -7,8 +7,7 @@ mechanic here was traced from the original's binary data files and
 rebuilt in plain JavaScript, cross-checked against an independent Python
 decompilation and UESP's wiki.
 
-**[Play it in your browser →] https://0x695.github.io/OpenDawnstar/ ** (or open `game.html` directly
-to skip the landing page)
+**[Play it in your browser →] https://0x695.github.io/OpenDawnstar/ ** 
 
 ## Status: playable, not finished
 
