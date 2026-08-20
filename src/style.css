@@ -1,0 +1,229 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #14110f;
+  color: #e9dfc9;
+  font-family: Georgia, 'Times New Roman', serif;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+#app {
+  width: 100%;
+  max-width: 420px;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #1c1712, #14110f);
+  border-left: 1px solid #3a2f22;
+  border-right: 1px solid #3a2f22;
+  padding: 24px 20px 40px;
+}
+.screen h1 {
+  font-size: 1.4em;
+  letter-spacing: 1px;
+  color: #cbaa5c;
+  border-bottom: 1px solid #4a3c28;
+  padding-bottom: 10px;
+  margin-top: 0;
+}
+.screen p.sub {
+  opacity: .8;
+  line-height: 1.4;
+  font-size: .95em;
+}
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+.menu-list li button {
+  width: 100%;
+  text-align: left;
+  padding: 12px 14px;
+  margin-bottom: 8px;
+  background: #241d16;
+  color: #e9dfc9;
+  border: 1px solid #4a3c28;
+  border-radius: 3px;
+  font-size: 1em;
+  font-family: inherit;
+  cursor: pointer;
+}
+.menu-list li button:hover,
+.menu-list li button:focus {
+  background: #35291b;
+  border-color: #cbaa5c;
+  outline: none;
+}
+.field {
+  margin: 18px 0;
+}
+.field input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.1em;
+  background: #0f0c09;
+  border: 1px solid #4a3c28;
+  color: #e9dfc9;
+  border-radius: 3px;
+  font-family: inherit;
+}
+.error {
+  color: #c0524a;
+  font-size: .9em;
+  min-height: 1.2em;
+  margin-top: 6px;
+}
+.btn-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+.btn {
+  padding: 10px 18px;
+  background: #35291b;
+  border: 1px solid #cbaa5c;
+  color: #e9dfc9;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1em;
+}
+.btn:hover { background: #4a3c28; }
+.btn.secondary { border-color: #4a3c28; background: #241d16; }
+.class-card {
+  border: 1px solid #4a3c28;
+  border-radius: 3px;
+  padding: 12px 14px;
+  margin-bottom: 8px;
+  background: #241d16;
+  cursor: pointer;
+}
+.class-card.selected { border-color: #cbaa5c; background: #35291b; }
+.class-card h3 { margin: 0 0 4px; color: #cbaa5c; font-size: 1.05em; }
+.class-card .stats { font-size: .8em; opacity: .75; display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+.stub-note {
+  margin-top: 30px;
+  padding: 12px;
+  border: 1px dashed #4a3c28;
+  font-size: .85em;
+  opacity: .7;
+}
+.touch-pad {
+  display: grid;
+  grid-template-columns: repeat(3, 56px);
+  grid-template-rows: repeat(3, 56px);
+  gap: 6px;
+  justify-content: center;
+  margin: 14px auto;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.touch-btn {
+  width: 56px;
+  height: 56px;
+  font-size: 1.4em;
+  background: #241d16;
+  color: #e9dfc9;
+  border: 1px solid #4a3c28;
+  border-radius: 8px;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+.touch-btn:active {
+  background: #35291b;
+  border-color: #cbaa5c;
+}
+@media (hover: hover) and (pointer: fine) {
+  .touch-pad { opacity: .55; }
+  .touch-pad:hover { opacity: 1; }
+}
+.icon-btn {
+  background: none;
+  border: none;
+  color: #cbaa5c;
+  font-size: 1.2em;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+
+/* In-game Options menu — styled to match the original's actual UI
+   (screenshot reference): black header bar, copper/orange body, bold
+   yellow items, gray selected-row highlight, black footer with
+   Back/Select labels. */
+.og-menu {
+  position: fixed;
+  inset: 0;
+  z-index: 500;
+  display: flex;
+  flex-direction: column;
+  background: #b5732e;
+  font-family: 'Trebuchet MS', 'Segoe UI', sans-serif;
+}
+.og-menu-header {
+  background: #000;
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.4em;
+  text-align: center;
+  padding: 14px 0;
+  letter-spacing: .5px;
+}
+.og-menu-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 6px 0;
+}
+.og-menu-item {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  color: #f2d020;
+  font-weight: 800;
+  font-size: 1.25em;
+  font-family: inherit;
+  padding: 10px 18px;
+  cursor: pointer;
+}
+.og-menu-item.selected {
+  background: #6e6e6e;
+  color: #fff;
+}
+.og-menu-item:disabled {
+  color: #8a6a3a;
+  cursor: default;
+}
+.og-menu-footer {
+  background: #fff;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  font-weight: 800;
+  font-size: 1.3em;
+}
+.og-menu-footer button {
+  background: none;
+  border: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  padding: 0;
+}
+.og-content {
+  padding: 16px 18px;
+  color: #2a1c0d;
+}
+.og-content h2 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+.og-stat-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+  font-weight: 600;
+}

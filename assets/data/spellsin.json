@@ -1,0 +1,252 @@
+[
+ {
+  "name": "Frenzy",
+  "h": 1,
+  "e": 10,
+  "f": 30,
+  "d": 1,
+  "j": 35,
+  "g": 3,
+  "description": "Increases caster weapon value"
+ },
+ {
+  "name": "Shield",
+  "h": 1,
+  "e": 15,
+  "f": 30,
+  "d": 1,
+  "j": 35,
+  "g": 4,
+  "description": "Increases caster armor value"
+ },
+ {
+  "name": "Deft Security",
+  "h": 1,
+  "e": 15,
+  "f": 30,
+  "d": 1,
+  "j": 45,
+  "g": 4,
+  "description": "Increases caster security skill"
+ },
+ {
+  "name": "Weakness",
+  "h": 1,
+  "e": 18,
+  "f": -2,
+  "d": 2,
+  "j": 0,
+  "g": 0,
+  "description": "Weakens monster combat ability"
+ },
+ {
+  "name": "Dragon Combat",
+  "h": 1,
+  "e": 16,
+  "f": 30,
+  "d": 1,
+  "j": 35,
+  "g": 9,
+  "description": "Greatly increases caster melee ability"
+ },
+ {
+  "name": "Daedric Weapon",
+  "h": 3,
+  "e": 6,
+  "f": 60,
+  "d": 1,
+  "j": 25,
+  "g": 2,
+  "description": "Conjures modestly enchanted weapon"
+ },
+ {
+  "name": "Blood Spirit",
+  "h": 3,
+  "e": 10,
+  "f": -2,
+  "d": 2,
+  "j": 0,
+  "g": 0,
+  "description": "Conjures spirit to attack monster"
+ },
+ {
+  "name": "Absorb",
+  "h": 3,
+  "e": 20,
+  "f": -1,
+  "d": 2,
+  "j": 0,
+  "g": 0,
+  "description": "Drains attributes from monster, gives to caster"
+ },
+ {
+  "name": "Dead to Dust",
+  "h": 3,
+  "e": 14,
+  "f": -1,
+  "d": 2,
+  "j": 0,
+  "g": 0,
+  "description": "Savages the undead"
+ },
+ {
+  "name": "Righteousness",
+  "h": 3,
+  "e": 15,
+  "f": -2,
+  "d": 2,
+  "j": 0,
+  "g": 0,
+  "description": "Extra combat boost against any monster"
+ },
+ {
+  "name": "Damage",
+  "h": 4,
+  "e": 8,
+  "f": -1,
+  "d": 2,
+  "j": 0,
+  "g": 0,
+  "description": "Deals damage to monster"
+ },
+ {
+  "name": "Feeble Blade",
+  "h": 4,
+  "e": 12,
+  "f": -2,
+  "d": 2,
+  "j": 0,
+  "g": 0,
+  "description": "Reduces damage from monster"
+ },
+ {
+  "name": "Harm Armor",
+  "h": 4,
+  "e": 12,
+  "f": -2,
+  "d": 2,
+  "j": 0,
+  "g": 0,
+  "description": "Reduces effectiveness of monster armor"
+ },
+ {
+  "name": "Doom Hammer",
+  "h": 4,
+  "e": 16,
+  "f": -1,
+  "d": 2,
+  "j": 0,
+  "g": 0,
+  "description": "Creates powerful magic weapon"
+ },
+ {
+  "name": "Drain",
+  "h": 4,
+  "e": 18,
+  "f": -2,
+  "d": 2,
+  "j": 0,
+  "g": 0,
+  "description": "Lowers many monster attributes"
+ },
+ {
+  "name": "Paralyze",
+  "h": 6,
+  "e": 12,
+  "f": -3,
+  "d": 2,
+  "j": 0,
+  "g": 0,
+  "description": "Temporarily paralyzes monsters"
+ },
+ {
+  "name": "Sanctuary",
+  "h": 6,
+  "e": 12,
+  "f": -2,
+  "d": 1,
+  "j": 0,
+  "g": 0,
+  "description": "Greatly increases caster armor"
+ },
+ {
+  "name": "Blind",
+  "h": 6,
+  "e": 12,
+  "f": -2,
+  "d": 2,
+  "j": 0,
+  "g": 0,
+  "description": "Greatly reduces monster ability to hit"
+ },
+ {
+  "name": "Fear",
+  "h": 6,
+  "e": 12,
+  "f": -2,
+  "d": 2,
+  "j": 0,
+  "g": 0,
+  "description": "Cowering monsters cannot hurt you"
+ },
+ {
+  "name": "Death Howl",
+  "h": 6,
+  "e": 10,
+  "f": -1,
+  "d": 2,
+  "j": 0,
+  "g": 0,
+  "description": "Damages even great monsters"
+ },
+ {
+  "name": "Heal Wound",
+  "h": 10,
+  "e": 12,
+  "f": -1,
+  "d": 1,
+  "j": 40,
+  "g": 2,
+  "description": "Restores health"
+ },
+ {
+  "name": "Disarm Trap",
+  "h": 10,
+  "e": 10,
+  "f": -2,
+  "d": 3,
+  "j": 0,
+  "g": 0,
+  "description": "Enhances security, use against trap"
+ },
+ {
+  "name": "Raise Attribute",
+  "h": 10,
+  "e": 12,
+  "f": -2,
+  "d": 1,
+  "j": 35,
+  "g": 4,
+  "description": "Raises caster attributes for one combat"
+ },
+ {
+  "name": "Camp Magicka",
+  "h": 10,
+  "e": 8,
+  "f": -1,
+  "d": 1,
+  "j": 40,
+  "g": 5,
+  "description": "Restores magicka when camping"
+ },
+ {
+  "name": "Remove Ailment",
+  "h": 10,
+  "e": 14,
+  "f": -1,
+  "d": 1,
+  "j": 45,
+  "g": 5,
+  "description": "Removes one status ailment"
+ }
+]

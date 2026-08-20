@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OpenDawnstar — A Browser Reimplementation of The Elder Scrolls Travels: Dawnstar</title>
+<meta name="description" content="A from-scratch, reverse-engineered browser port of the 2003 J2ME game The Elder Scrolls Travels: Dawnstar.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="src/landing.css">
+</head>
+<body>
+
+<nav id="nav">
+  <div class="nav-inner">
+    <a href="#" class="wordmark">OPENDAWNSTAR</a>
+    <div class="nav-links">
+      <a href="#story">Story</a>
+      <a href="#world">World</a>
+      <a href="#classes">Classes</a>
+      <a href="#champions">Champions</a>
+      <a href="#port">This Port</a>
+    </div>
+    <a href="game.html" class="btn-play btn-play--nav">Play Now</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-vignette" aria-hidden="true"></div>
+  <div class="hero-content">
+    <div class="hero-logo">
+      <img src="assets/img/splashtop.png" alt="" class="logo-top" aria-hidden="true">
+      <img src="assets/img/splashbot.png" alt="The Elder Scrolls Travels: Dawnstar" class="logo-bottom">
+    </div>
+    <p class="hero-eyebrow">OpenDawnstar &middot; a reverse-engineered reimplementation &middot; 2026</p>
+    <h1 class="hero-headline">The North Is<br>Burning Again</h1>
+    <p class="hero-sub">Glacier tribes raid the exile post of Dawnstar. One of the governor's four champions is a traitor. Find them before the ice does.</p>
+    <div class="hero-ctas">
+      <a href="game.html" class="btn-play btn-play--hero">Play Now — Free, In Browser</a>
+      <a href="#port" class="btn-ghost">How this port was built</a>
+    </div>
+  </div>
+  <div class="scroll-cue" aria-hidden="true"><span></span></div>
+</header>
+
+<main>
+
+<section id="story" class="section">
+  <p class="eyebrow">The Assignment</p>
+  <div class="section-grid section-grid--text-image">
+    <div>
+      <h2>Restore Your Good Name</h2>
+      <p class="lede">Your posting to Dawnstar begins badly. Glacier tribes are raiding the far northern town, and Governor Cyril Vinticae has a problem he can't solve alone.</p>
+      <p>He needs you to find his four champions — Alhavara, Beatrice, Chung, and Delacroix — because one of them is almost certainly working with the tribes. You'll need to survive the dungeons ringing the town, choose your allies carefully, and gather enough power to face down whoever's been feeding the raiders their information.</p>
+      <p>Unlike most Elder Scrolls games, Dawnstar has exactly one quest. No side content, no distractions — just the raid, the four suspects, and the clock.</p>
+    </div>
+    <div class="quote-block">
+      <blockquote>&ldquo;Creatures and foes pressed around you but you emerged victorious. Weary, you seek Governor Vinticae to inform him Dawnstar is once again his.&rdquo;</blockquote>
+      <p class="quote-attr">— from the original game's victory text</p>
+    </div>
+  </div>
+</section>
+
+<section id="world" class="section section--dark">
+  <p class="eyebrow">The World</p>
+  <h2>One Camp. Four Directions. Thirty-Six Dungeons.</h2>
+  <p class="lede lede--center">Dawnstar itself — camp, to the locals — sits at the center of everything. Four gates lead out in the four cardinal directions; each one opens onto a chain of nine connected dungeons, three zones of three, before the trail runs cold.</p>
+  <div class="stat-band">
+    <div class="stat"><span class="stat-num">36</span><span class="stat-label">Dungeons</span></div>
+    <div class="stat"><span class="stat-num">4</span><span class="stat-label">Zones, one per direction</span></div>
+    <div class="stat"><span class="stat-num">4</span><span class="stat-label">Real shops in camp</span></div>
+    <div class="stat"><span class="stat-num">1</span><span class="stat-label">Traitor, hidden among four</span></div>
+  </div>
+  <p class="lede lede--center" style="margin-top:2.5rem">Camp is also the only truly safe ground — home to the four peddlers, the healer Eustacia, and, once the traitor is revealed, the site of the final battle: every enemy in the game converging at once, capped by the strongest monster in Dawnstar, the <strong>Gehenoth Thriceborn</strong>.</p>
+</section>
+
+<section id="classes" class="section">
+  <p class="eyebrow">The Classes</p>
+  <h2>Seven Ways to Survive the North</h2>
+  <p class="lede">Every class below ships with its real starting stats, gear, and spells — pulled directly from the original game's own data files, not estimated.</p>
+  <div class="class-grid">
+    <div class="class-card"><h3>Barbarian</h3><p class="class-race">Nord</p><div class="class-stats"><span>45 HP</span><span>30 MP</span><span>170 FT</span></div><p class="class-gear">Hatchet &middot; Padded Cloth</p></div>
+    <div class="class-card"><h3>Battlemage</h3><p class="class-race">Breton</p><div class="class-stats"><span>35 HP</span><span>75 MP</span><span>150 FT</span></div><p class="class-gear">Club &middot; Padded Cloth</p><p class="class-spells">Damage &middot; Heal Wound</p></div>
+    <div class="class-card"><h3>Knight</h3><p class="class-race">Redguard</p><div class="class-stats"><span>50 HP</span><span>30 MP</span><span>170 FT</span></div><p class="class-gear">Club &middot; Worn Cuirass</p></div>
+    <div class="class-card"><h3>Nightblade</h3><p class="class-race">Wood Elf</p><div class="class-stats"><span>30 HP</span><span>50 MP</span><span>140 FT</span></div><p class="class-gear">Dagger &middot; Padded Cloth</p><p class="class-spells">Paralyze</p></div>
+    <div class="class-card"><h3>Rogue</h3><p class="class-race">Nord</p><div class="class-stats"><span>50 HP</span><span>30 MP</span><span>170 FT</span></div><p class="class-gear">Broadsword &middot; Worn Cuirass</p></div>
+    <div class="class-card"><h3>Sorcerer</h3><p class="class-race">High Elf</p><div class="class-stats"><span>30 HP</span><span>75 MP</span><span>140 FT</span></div><p class="class-gear">Dagger &middot; Padded Cloth</p><p class="class-spells">Frenzy &middot; Daedric Weapon &middot; Damage</p></div>
+    <div class="class-card"><h3>Spellsword</h3><p class="class-race">High Elf</p><div class="class-stats"><span>35 HP</span><span>62 MP</span><span>150 FT</span></div><p class="class-gear">Broadsword &middot; Worn Cuirass</p><p class="class-spells">Frenzy &middot; Damage</p></div>
+  </div>
+</section>
+
+<section id="champions" class="section section--dark">
+  <p class="eyebrow">Find the Traitor</p>
+  <h2>Four Champions. One Lie.</h2>
+  <p class="lede lede--center">Befriend them, threaten them, or win them over with gifts — every conversation moves you closer to a clue. Get enough goodwill and they'll train you in their specialty, too.</p>
+  <div class="champion-grid">
+    <div class="champion-card"><h3>Alhavara</h3><p>Teaches Light Armor, Long Blade, Restoration.</p></div>
+    <div class="champion-card"><h3>Beatrice</h3><p>Teaches Alteration, Conjuration, Destruction.</p></div>
+    <div class="champion-card"><h3>Chung</h3><p>Teaches Axe, Blunt Weapon, Heavy Armor.</p></div>
+    <div class="champion-card"><h3>Delacroix</h3><p>Teaches Illusion, Short Blade, Speechcraft.</p></div>
+  </div>
+  <p class="lede lede--center" style="margin-top:2.5rem">And in camp, always: <strong>Eustacia</strong>, the healer who patches you up between accusations and keeps track of every clue you've gathered.</p>
+</section>
+
+<section id="port" class="section port-section">
+  <p class="eyebrow">About This Port</p>
+  <h2>Rebuilt, Not Emulated</h2>
+  <div class="port-grid">
+    <div>
+      <p class="lede">This isn't the original game running in an emulator — it's a ground-up rewrite in plain JavaScript, built by reverse-engineering the original 2003 <code>.jar</code>'s binary data files byte by byte, then cross-checking every formula against an independent Python decompilation and UESP's own wiki pages.</p>
+      <p>Combat, dungeon generation, character progression, shops, spells, and the champion questline all use the real formulas traced from the original source — not approximations dressed up to look right. Where something genuinely couldn't be traced, it's documented as a substitution rather than passed off as authentic.</p>
+      <a href="PORT_NOTES.md" class="text-link">Read the full stage-by-stage development log &rarr;</a><br>
+      <a href="COMPARISON.md" class="text-link">Compare this port to the original hardware and emulator approach &rarr;</a>
+    </div>
+    <div class="port-facts">
+      <div class="port-fact"><span class="port-fact-num">22+</span>Development stages, each tested before shipping</div>
+      <div class="port-fact"><span class="port-fact-num">43</span>Original sprites extracted byte-exact</div>
+      <div class="port-fact"><span class="port-fact-num">0</span>Bytes unaccounted for in any parsed data file</div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <p><strong>OpenDawnstar is a fan project.</strong> The Elder Scrolls Travels: Dawnstar was originally developed by Vir2L Studios and published by Bethesda Softworks / ZeniMax Media in 2003. OpenDawnstar is an unofficial, non-commercial, reverse-engineered reimplementation: all game logic is original code, written from scratch by reading the original's data files and cross-referencing an independent decompilation — no original code or bytecode is included. The original game's own extracted sprite and audio-adjacent assets are used for visual fidelity. OpenDawnstar is not affiliated with, endorsed by, or sponsored by ZeniMax Media Inc.</p>
+  <p class="footer-links"><a href="https://en.uesp.net/wiki/Dawnstar:Dawnstar">Source material: UESP Wiki</a> &middot; <a href="game.html">Play the game</a></p>
+</footer>
+
+<script src="src/landing.js" type="module"></script>
+</body>
+</html>

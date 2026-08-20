@@ -1,0 +1,50 @@
+[
+ {
+  "title": "Goal",
+  "body": "Uncover the traitor of Dawnstar, return to defend the city from the final onslaught."
+ },
+ {
+  "title": "Combat",
+  "body": "Combat occurs when a monster is adjacent to your character. You may attack the monster (press 1) or cast a spell (press 3)Sometimes it is wiser to flee a battle. All movement options (pressing arrow keys or 2, 4, 6, or 8) are allowed in combat. Combat actions use up fatigue, so keep an eye on your fatigue level.  Tired fighters are less effective fighters."
+ },
+ {
+  "title": "Experience",
+  "body": "You gain experience through successful skill use. You can check your progress on skills through the options menu, then selecting skills and the specific skill you want to see. When you gain enough experience your skill goes up a rank.  When you gain 10 skill ranks your player goes up a level."
+ },
+ {
+  "title": "Items",
+  "body": "Access items from the inventory menu (press 7 for options, then select inventory).  You have four actions you can take with items.You can drop any item.You can equip weapons and armor, which you must do to use them in combat.You can learn a spell from a spell scroll, if you already have the appropriate magic skill.You can activate all other items by using them."
+ },
+ {
+  "title": "Gift Items",
+  "body": "Gift items can be given to trainers, who will give different amounts of Aid based on how much they like the gift. Each dungeon contains one gift item. Finding gift items will unlock new dungeons. Search each dungeon well, and save often."
+ },
+ {
+  "title": "Maps",
+  "body": "The '*' button toggles the map display. You click to choose between the in-play mini-map or the full dungeon map.The map shows colored squares that indicate objects of importance in the game. A green square represents the player. A blue square represents a chest or a dropped item. A red square represents a monster. A purple square represents a warp square, which warps you back to the camp dungeon."
+ },
+ {
+  "title": "Monsters",
+  "body": "Monsters are always hostile. If you have an attack option on your menu bar, then you are facing a monster.Pay attention to the name of monsters as they appear; monsters which look alike can actually have very different combat capabilities.Monsters can follow you if you get close enough. If you are fleeing a combat get several squares away before you stop.Monsters can sometime afflict you with status ailments, which can cause negative effects to your vision, magic powers, and/or health. If you have a status ailment, it will be shown on your status screen. Eustacia (and sometimes camping) can cure status ailments."
+ },
+ {
+  "title": "Movement",
+  "body": "Move by pressing 2 to move forward, 4 to step left, 6 to step right, and 8 to step backward while still facing forward. The arrow keys or joystick directions move you forward, back, or rotates you right and left."
+ },
+ {
+  "title": "Spells",
+  "body": "You cast a spell from the adventure menu by pressing 3.  You may only have one spell ready to cast at one time.To change a spell press 5. This leads to your list of spells. Select the spell you now want active. View the information and then ready the spell. Spells require magicka to cast. Camping or consumable items can restore your magicka.  Spell casting can also cost fatigue, so stay rested."
+ },
+ {
+  "title": "Trainers",
+  "body": "Trainers offer a key method of increasing your current skills or teaching you valuable new ones. Not all trainers offer all skills, but one of the games four trainers will have the skill you need.Trainers can be influenced by attempts to befriend them or threaten them.  Befriending is the better approach long term. Gift items found in the dungeon increase your chances of trainers working with you. Trainers have their own preferences, so pay attention when a trainer says he or she needs something."
+ },
+ {
+  "title": "Camp",
+  "body": "You may camp (press the 0 key) in order to recover your health, magic powers, and fatigue."
+ },
+ {
+  "title": "Website",
+  "body": "Visit our website at www.elderscrollstravels.com. The site has more help, tactical hints, a FAQ and goodies for the Elder Scrolls Travels fan."
+ }
+]
